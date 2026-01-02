@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le P'tit Cash - Politiques et Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding-top: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 60px;
+        }
+        
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        .header p {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+        
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+        }
+        
+        .card-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .card h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        
+        .card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+            opacity: 0.8;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>💰 Le P'tit Cash</h1>
+            <p>Application de récompenses</p>
+        </div>
+        
+        <div class="cards">
+            <a href="account_deletion.html" class="card">
+                <div class="card-icon">🗑️</div>
+                <h2>Suppression de compte</h2>
+                <p>Demandez la suppression de votre compte et de toutes vos données associées.</p>
+            </a>
+            
+            <a href="https://www.privacypolicies.com/live/49e537cf-aa32-49f6-8ab1-413ac1f534c3" class="card" target="_blank">
+                <div class="card-icon">🔒</div>
+                <h2>Politique de confidentialité</h2>
+                <p>Consultez notre politique de confidentialité et découvrez comment nous protégeons vos données.</p>
+            </a>
+            
+            <a href="mailto:vincent.corbeil.app@gmail.com" class="card">
+                <div class="card-icon">📧</div>
+                <h2>Contactez-nous</h2>
+                <p>Une question? Un problème? Contactez notre équipe de support.</p>
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>Le P'tit Cash © 2026</p>
+            <p>Email: <a href="mailto:vincent.corbeil.app@gmail.com">vincent.corbeil.app@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
